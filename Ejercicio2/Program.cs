@@ -10,7 +10,25 @@ namespace Ejercicio2
     {
         static void Main(string[] args)
         {
+            int t1, t2, t3, ep, ef;
+            float promedio;
+            Console.Write("ingrese nota T1: ");
+            t1 = int.Parse(Console.ReadLine());
+            Console.Write("Ingrese nota T2");
+            t2 = int.Parse(Console.ReadLine());
+            Console.Write("Ingrse nota T2");
+            t3 = int.Parse(Console.ReadLine());
+            Console.Write("ingrese nota de EP");
+            ep = int.Parse(Console.ReadLine());
+            Console.Write("Ingrse nota de EF");
+            ef = int.Parse(Console.ReadLine());
+            promedio = (float)(t1 * 0.10f) + (t2 * 0.10f) + (t3 * 0.10f) + (ep * 0.20f) + (ef * 0.50f);
+            Console.Write("El promedio es:"+promedio);
+            Console.Write("El promedio redomdeado es:" +
+                Math.Round(promedio));
+            if (promedio >= 11.5)
 
+             
         }
     }
 }
