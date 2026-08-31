@@ -22,22 +22,6 @@ namespace Ejercicio1
             resta= (short)(num1 - num2);
             Console.WriteLine("La suma es: " + suma);
             Console.WriteLine("La resta es: " + resta);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         }
     }
 }
