@@ -31,8 +31,6 @@ namespace Ejercicio2
                 Console.WriteLine("Usted esta aprobado");
             else
              Console.WriteLine("Usted esta desaprobado");
-
-
         }
     }
 }
