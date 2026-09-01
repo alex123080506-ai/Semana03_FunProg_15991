@@ -14,21 +14,25 @@ namespace Ejercicio2
             float promedio;
             Console.Write("ingrese nota T1: ");
             t1 = int.Parse(Console.ReadLine());
-            Console.Write("Ingrese nota T2");
+            Console.Write("Ingrese nota T2: ");
             t2 = int.Parse(Console.ReadLine());
-            Console.Write("Ingrse nota T2");
+            Console.Write("Ingrse nota T3: ");
             t3 = int.Parse(Console.ReadLine());
-            Console.Write("ingrese nota de EP");
+            Console.Write("ingrese nota de EP: ");
             ep = int.Parse(Console.ReadLine());
-            Console.Write("Ingrse nota de EF");
+            Console.Write("Ingrse nota de EF: ");
             ef = int.Parse(Console.ReadLine());
             promedio = (float)(t1 * 0.10f) + (t2 * 0.10f) + (t3 * 0.10f) + (ep * 0.20f) + (ef * 0.50f);
-            Console.Write("El promedio es:"+promedio);
-            Console.Write("El promedio redomdeado es:" +
+            Console.WriteLine("El promedio es:" + promedio);
+            Console.WriteLine("El promedio redondeado es:" +
                 Math.Round(promedio));
-            if (promedio >= 11.5)
 
-             
+            if (promedio >= 11.5)
+                Console.WriteLine("Usted esta aprobado");
+            else
+             Console.WriteLine("Usted esta desaprobado");
+
+
         }
     }
 }
